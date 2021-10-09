@@ -1,12 +1,10 @@
 import React from "react";
-import Form from "./Form";
-
-let userIsRegisterd = false;
 
 function App() {
   return (
     <div className="container">
-      <Form userIsRegisterd={userIsRegisterd} />
+      <h1>TIME</h1>
+      <button>Get Time</button>
     </div>
   );
 }
